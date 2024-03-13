@@ -1,0 +1,22 @@
+Xcursor.theme: Breeze_Default
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcdfilter
+
+
+xterm*background:#000000
+xterm*foreground:#FFFFFF
+XTerm*renderFont: true
+! XTerm*faceName: xft:Mononoki Nerd Font
+XTerm*faceName: xft:JetBrainsMonoNerdFontMono Medium
+XTerm*faceSize: 14
+XTerm*utf8: 2
+XTerm*locale: true
+xterm*selectToClipboard: true
+xterm*bellIsEnabled: false
+
