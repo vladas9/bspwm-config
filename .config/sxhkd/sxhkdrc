@@ -4,6 +4,9 @@
 
 # terminal emulator
 super + Return
+	kitty
+
+super + shift + Return
 	xterm
 
 # program launcher
@@ -43,8 +46,8 @@ super + g
 	bspc node -s biggest.window
 
 # Open APPS
-super + alt + {c,t,s,d,e}
-  {chromium,telegram-desktop,spotify,discord,thunar}
+super + alt + {c,t,s,d,e,n,z}
+  {chromium,telegram-desktop,spotify,discord,thunar,typora,zathura }
 # Enable/disable bluetooth
 super + alt + {b,w}
   {blueberry, nm-connection-editor}
@@ -63,6 +66,8 @@ shift + super + S
 # set the window state
 super + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+
 
 # set the node flags
 super + ctrl + {m,x,y,z}
