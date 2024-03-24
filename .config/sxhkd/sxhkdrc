@@ -33,6 +33,13 @@ super + alt + {q,r}
 super + {c}
 	bspc node -{c,k}
 
+# Change language
+Alt_L + shift
+	sh ~/scripts/change_language.sh
+
+Shift_L + alt
+	sh ~/scripts/change_language.sh
+
 # alternate between the tiled and monocle layout
 super + m
 	bspc desktop -l next
@@ -179,3 +186,7 @@ XF86AudioStop
 # Mute or unmute the microphone
 XF86AudioMicMute
     amixer set Capture toggle
+
+# GitHub key
+ctrl + g
+	echo "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" | xclip -selection clipboard
