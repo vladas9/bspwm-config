@@ -60,7 +60,7 @@ super + alt + {b,w}
   {blueberry, nm-connection-editor}
 #Screen Shoot
 shift + super + S
-	scrot -s '%Y-%m-%d-%s_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
+	import ~/Pictures/Screenshots/$(date +'%Y-%m-%d-%H-%M-%S').png
 
 # # Pick color
 # super + p
