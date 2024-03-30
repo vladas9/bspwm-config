@@ -190,3 +190,5 @@ XF86AudioMicMute
 # GitHub key
 ctrl + g
 	echo "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" | xclip -selection clipboard
+
+

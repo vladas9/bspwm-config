@@ -50,5 +50,6 @@ fi
 
 source ~/.zshrc &
 ~/scripts/touchpad.sh &
+~/scripts/battery-alert.sh &
 xclip -section clipboard &
 exec bspwm
