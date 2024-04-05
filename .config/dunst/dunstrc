@@ -5,9 +5,9 @@
   padding = 20
   horizontal_padding = 20
   
-  width = 250
-  height = 300
-  offset = 9x50
+  width = 300
+  height = 200
+  offset = 11x50
   origin = top-right
 
   frame_width = 3

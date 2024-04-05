@@ -53,8 +53,8 @@ super + g
 	bspc node -s biggest.window
 
 # Open APPS
-super + alt + {c,t,s,d,e,n,z, space}
-  {chromium,telegram-desktop,spotify,discord,thunar,typora,zathura, rofi -show drun}
+super + alt + {c,t,s,d,f,e,n,z, space}
+  {chromium,telegram-desktop,spotify,discord,firefox,thunar,obsidian,zathura, rofi -show drun}
 # Enable/disable bluetooth
 super + alt + {b,w}
   {blueberry, nm-connection-editor}
@@ -191,4 +191,5 @@ XF86AudioMicMute
 ctrl + g
 	echo "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" | xclip -selection clipboard
 
-
+XF86Calculator
+	qalculate-gtk
