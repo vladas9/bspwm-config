@@ -189,7 +189,7 @@ XF86AudioMicMute
 
 # GitHub key
 ctrl + g
-	echo "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" | xclip -selection clipboard
+	echo "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" | xclip -selection clipboard
 
 XF86Calculator
 	qalculate-gtk

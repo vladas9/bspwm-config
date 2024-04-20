@@ -10,9 +10,8 @@ alias ll='lsd -alF'
 alias la='lsd -A'
 alias plr='polybar-msg cmd restart'
 
-
-eval "$(fasd --init auto)"
-
+# fzf
+eval "$(fzf --zsh)"
 
 # Enable syntax highlighting
 # source ~/.zsh/plugins/zsh-syntax-highlighting.plugin.zsh
@@ -26,3 +25,4 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 
 setopt NO_BEEP
+

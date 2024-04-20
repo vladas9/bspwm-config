@@ -4,4 +4,5 @@ dmenu-exyended, git, gtk, htop, neovim, nm-connection-editor,
 nodejs, npm, octave, picom, polybar, pulseaudio, pulseaudio-alsa
 pulseaudio-bluetooth, python, spotify, sxhkd, telegram-desktop,
 xcolor, xorg, xorf-tools, zsh, kitty, zathura, btop, rofi,
-cronie, lsd, fasd, dunst, qalculate-gtk, gnuplot, obsidian}
+cronie, lsd, dunst, qalculate-gtk, gnuplot, obsidian, firefox,
+dust, fzf}
