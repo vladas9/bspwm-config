@@ -13,6 +13,8 @@ alias plr='polybar-msg cmd restart'
 # fzf
 eval "$(fzf --zsh)"
 
+
+export EDITOR='nvim'
 # Enable syntax highlighting
 # source ~/.zsh/plugins/zsh-syntax-highlighting.plugin.zsh
 
