@@ -5,4 +5,9 @@ nodejs, npm, octave, picom, polybar, pulseaudio, pulseaudio-alsa
 pulseaudio-bluetooth, python, spotify, sxhkd, telegram-desktop,
 xcolor, xorg, xorf-tools, zsh, kitty, zathura, btop, rofi,
 cronie, lsd, dunst, qalculate-gtk, gnuplot, obsidian, firefox,
-dust, fzf}
+dust, fzf, ranger, w3m, poppler highlight}
+
+- Git repo
+  - for zsh
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting

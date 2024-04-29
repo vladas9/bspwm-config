@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V
 
-bspc config border_width         5
+bspc config border_width         0
 bspc config window_gap           17
 bspc config split_ratio          0.52
 bspc config gapless_monocle      false
@@ -25,6 +25,7 @@ bspc config pointer_action3 resize_corner
 bspc rule -a kitty state=floating
 bspc rule -a Eog state=floating
 bspc rule -a Qalculate-gtk state=floating
+bspc rule -a Spotify state=floating
 
 # Set cursor to default
 xsetroot -cursor_name left_ptr

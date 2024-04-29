@@ -1,5 +1,5 @@
 configuration{
-    modi: "run,drun,window";
+    modi: "drun";
     lines: 5;
     font: "JetBrainsMono Nerd Font 14";
     show-icons: true;
@@ -8,15 +8,10 @@ configuration{
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
-    hide-scrollbar: true;
-    display-drun: "   Apps ";
-    display-run: "   Run ";
-    display-window: "   window";
-    display-Network: " 󰤨  Network";
-    sidebar-mode: true;
+    hide-scrollbar: true; 
 }
 
-@theme "catppuccin"
+@theme "theme"
 
 element-text, element-icon , mode-switcher {
     background-color: inherit;
@@ -35,19 +30,13 @@ mainbox {
 }
 
 inputbar {
-    children: [prompt,entry];
+    children: [entry];
     background-color: @bg-col;
     border-radius: 5px;
     padding: 2px;
 }
 
-prompt {
-    background-color: @blue;
-    padding: 6px;
-    text-color: @bg-col;
-    border-radius: 3px;
-    margin: 20px 0px 0px 20px;
-}
+
 
 textbox-prompt-colon {
     expand: false;
@@ -56,7 +45,7 @@ textbox-prompt-colon {
 
 entry {
     padding: 6px;
-    margin: 20px 0px 0px 10px;
+    margin: 20px 0px 0px 30px;
     text-color: @fg-col;
     background-color: @bg-col;
     placeholder:"Search";
@@ -71,13 +60,13 @@ listview {
 }
 
 element {
-    padding: 5px;
+    padding: 0px;
     background-color: @bg-col;
     text-color: @fg-col  ;
 }
 
 element-icon {
-    size: 25px;
+    size: 50px;
 }
 
 element selected {
@@ -85,19 +74,3 @@ element selected {
     text-color: @fg-col2  ;
 }
 
-mode-switcher {
-    spacing: 0;
-  }
-
-button {
-    padding: 10px;
-    background-color: @bg-col-light;
-    text-color: @grey;
-    vertical-align: 0.5; 
-    horizontal-align: 0.5;
-}
-
-button selected {
-  background-color: @bg-col;
-  text-color: @blue;
-}
