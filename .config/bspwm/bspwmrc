@@ -37,6 +37,8 @@ start_apps() {
     picom --config ~/.config/picom/picom.conf &
     nitrogen --restore &
     polybar &
+    ~/scripts/touchpad.sh
+    ~/scripts/battery-alert.sh &
 }
 
 start_apps

@@ -53,8 +53,11 @@ super + g
 	bspc node -s biggest.window
 
 # Open APPS
-super + alt + {c,t,s,d,f,e,n,z, space}
-  {chromium,telegram-desktop,spotify,discord,firefox,thunar,obsidian,zathura, rofi -show drun}
+super + alt + {c,t,s,d,f,e,n,z}
+  {chromium,telegram-desktop,spotify,discord,firefox,thunar,obsidian,zathura}
+
+super + space
+ {rofi -show drun}
 # Enable/disable bluetooth
 super + alt + {b,w}
   {blueberry, nm-connection-editor}
