@@ -190,9 +190,5 @@ XF86AudioStop
 XF86AudioMicMute
     amixer set Capture toggle
 
-# GitHub key
-ctrl + g
-	echo "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" | xclip -selection clipboard
-
 XF86Calculator
 	qalculate-gtk
