@@ -33,7 +33,7 @@
   history_length = 6
   title = Dunst
   class = Dunst
-  corner_radius = 0
+  corner_radius = 20
 
   mouse_left_click = close_current
   mouse_middle_click = do_action
@@ -56,3 +56,4 @@
   frame_color =  "#A54242"
   foreground = "#D9E0EE"
   timeout = 10
+
