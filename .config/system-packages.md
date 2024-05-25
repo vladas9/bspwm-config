@@ -16,3 +16,5 @@ simple-sddm-theme-git}
   - for zsh
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
+  - for tmux
+   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
