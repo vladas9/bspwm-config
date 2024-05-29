@@ -3,3 +3,5 @@
 	name = vladas9
 [credential]
 	helper = store
+[init]
+	defaultBranch = main

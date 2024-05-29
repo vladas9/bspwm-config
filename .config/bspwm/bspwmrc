@@ -22,7 +22,7 @@ bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner
 
 #windows rules
-bspc rule -a kitty state=floating
+# bspc rule -a kitty state=floating
 bspc rule -a Eog state=floating
 bspc rule -a Qalculate-gtk state=floating
 bspc rule -a Spotify state=floating
