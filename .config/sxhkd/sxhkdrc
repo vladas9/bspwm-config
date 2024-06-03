@@ -192,3 +192,7 @@ XF86AudioMicMute
 
 XF86Calculator
 	qalculate-gtk
+
+# A message about battery capacity
+ctrl + b
+	~/scripts/battery-message.sh
