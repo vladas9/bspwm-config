@@ -9,9 +9,6 @@ super + Return
 super + shift + Return
 	xterm
 
-# program launcher
-super + d
-	dmenu_extended_run
 
 # polybar restart
 super + ctrl + p
@@ -59,8 +56,8 @@ super + alt + {c,t,s,d,f,e,n,z}
 super + space
  {rofi -show drun}
 # Enable/disable bluetooth
-super + alt + {b,w}
-  {blueberry, nm-connection-editor}
+super + alt + b
+  blueberry
 #Screen Shoot
 shift + super + S
 	import ~/Pictures/Screenshots/$(date +'%Y-%m-%d-%H-%M-%S').png
@@ -196,3 +193,6 @@ XF86Calculator
 # A message about battery capacity
 ctrl + b
 	~/scripts/battery-message.sh
+
+super + alt + w
+ ~/scripts/change_wallpaper.sh
