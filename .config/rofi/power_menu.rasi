@@ -1,0 +1,128 @@
+
+/* --- Configuration for Rofi Power ---- */
+
+/* ---- Configuration ---- */
+configuration {
+    show-icons: false;
+}
+
+/* ---- Global Properties ---- */
+* {
+    font: "Fira Code Medium 12";
+}
+
+/* ---- Main Window ---- */
+window {
+    location: center;
+    anchor: center;
+    fullscreen: true;
+    width: 900px;
+    height: 400px;
+    x-offset: 0px;
+    y-offset: 0px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    border-color: #00000000; /* active-background */
+    cursor: "default";
+    background-color: transparent;
+}
+
+/* ---- Main Box ---- */
+mainbox {
+    enabled: true;
+    spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid;
+    border-radius: 0px;
+    border-color: #00000000; /* active-background */
+    background-color: rgba(0, 0, 0, 0.9);
+    children: ["inputbar", "listview", "message"];
+}
+
+/* ---- Inputbar ---- */
+inputbar {
+    enabled: true;
+    padding: 20px;
+    background-color: transparent;
+    orientation: horizontal;
+    children: ["prompt"];
+}
+
+prompt {
+    enabled: true;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: #ffffff; /* foreground */
+    background-color: #00000000; /* background-color */
+    text-color: #ffffff; /* foreground */
+    cursor: text;
+}
+
+/* ---- Listview ---- */
+listview {
+    enabled: true;
+    cycle: true;
+    dynamic: true;
+    scrollbar: false;
+    layout: horizontal;
+    reverse: false;
+    fixed-height: false;
+    fixed-columns: true;
+    spacing: 100px;
+    padding: 4% 40px;
+    margin: 300px 0px 0px 330px;
+    background-color: transparent;
+    cursor: "default";
+    border: 0px;
+    location: center;
+    anchor: center;
+    
+}
+
+/* ---- Elements ---- */
+element {
+    enabled: true;
+    padding: 80px 99px;
+    border-radius: 10px;
+    background-color: #25243e;
+    text-color: #f2cdbc; /* foreground */
+    cursor: pointer;
+}
+
+element-text {
+    font: "Fira Code SemiBold 30";
+    background-color: transparent;
+    text-color: inherit;
+    cursor: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+
+element.selected.normal {
+    background-color: #5566a5; /* selected-normal-background */
+    text-color: #292237; /* background-color */
+}
+
+element.alternate.normal {
+    background-color: #25243e; /* background-color */
+}
+
+/* ---- Message ---- */
+message {
+    enabled: true;
+    margin: 0px;
+    background-color: transparent;
+    text-color: #f2cdbc; /* foreground */
+    border: 0px;
+}
+
+textbox {
+    font: "Fira Code SemiBold 16";
+    background-color: #0025243e; /* background-color */
+    text-color: #f2cdbc; /* foreground */
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+

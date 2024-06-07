@@ -57,7 +57,12 @@ super + space
  {rofi -show drun}
 # Enable/disable bluetooth
 super + alt + b
-  blueberry
+	~/scripts/rofi_bluetooth.sh
+
+#wifi manager
+super +alt + w
+ ~/scripts/rofi_network.sh
+
 #Screen Shoot
 shift + super + S
 	import ~/Pictures/Screenshots/$(date +'%Y-%m-%d-%H-%M-%S').png
@@ -190,9 +195,5 @@ XF86AudioMicMute
 XF86Calculator
 	qalculate-gtk
 
-# A message about battery capacity
-ctrl + b
-	~/scripts/battery-message.sh
-
-super + alt + w
- ~/scripts/change_wallpaper.sh
+Help
+ ~/scripts/rofi_power_menu.sh
