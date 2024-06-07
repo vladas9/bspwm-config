@@ -4,16 +4,16 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d 1 2 3 4 5 
 
-bspc config border_width         0
+bspc config border_width         4
 bspc config window_gap           17
 bspc config split_ratio          0.52
 bspc config gapless_monocle      false
 
 # borders
 bspc config normal_border_color "#484848"
-# bspc config focused_border_color "#1F8999"
-bspc config focused_border_color "#fffff0"
-bspc config borderless_monocle true
+bspc config focused_border_color "#1F8999"
+# bspc config focused_border_color  "#e095f7"
+# bspc config borderless_monocle true
 
 # moving floating windows and resize them with mouse, hold alt key
 bspc config pointer_modifier mod4
