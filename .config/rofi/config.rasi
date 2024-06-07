@@ -31,7 +31,7 @@ mainbox {
 
 inputbar {
     children: [entry];
-    background-color: @bg-col;
+    background-color: @blue;
     border-radius: 5px;
     padding: 2px;
 }
@@ -45,9 +45,9 @@ textbox-prompt-colon {
 
 entry {
     padding: 6px;
-    margin: 20px 0px 0px 30px;
-    text-color: @fg-col;
-    background-color: @bg-col;
+    margin: 10px 0px 10px 30px;
+    text-color: #000000;
+    background-color: @blue;
     placeholder:"Search";
 }
 

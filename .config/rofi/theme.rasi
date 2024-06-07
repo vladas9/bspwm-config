@@ -1,12 +1,12 @@
 * {
     bg-col:  #1c1f22;
     bg-col-light: #1c1f22;
-    border-col: #8b00f7;
+    border-col: #7aa2f7;
     selected-col: #1c1f22;
     blue: #7aa2f7;
     fg-col: #D9E0EE;
     fg-col2: #F28FAD;
     grey: #D9E0EE;
     border-radius: 20;
-    width: 440;
+    width: 400;
 }
