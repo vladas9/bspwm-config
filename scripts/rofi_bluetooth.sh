@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 divider="---------"
 goback="Back"
@@ -45,7 +45,7 @@ toggle_scan() {
         show_menu
     else
         bluetoothctl scan on &
-        echo "Scanning..."
+        notify_send "Scanning..."
         sleep 5
         show_menu
     fi
@@ -212,7 +212,7 @@ device_menu() {
     fi
     paired=$(device_paired "$mac")
     trusted=$(device_trusted "$mac")
-    options="$connected\n$paired\n$trusted\n$divider\n$goback\nExit"
+    options="$connected\n$paired\n$trusted\n$divider\n$goback"
 
     # Open rofi menu, read chosen option
     chosen="$(echo -e "$options" | $rofi_command "$device_name")"
@@ -253,10 +253,10 @@ show_menu() {
         discoverable=$(discoverable_on)
 
         # Options passed to rofi
-        options="$devices\n$divider\n$power\n$scan\n$pairable\n$discoverable\nExit"
+        options="$devices\n$divider\n$power\n$scan\n$pairable\n$discoverable"
     else
         power="Power: off"
-        options="$power\nExit"
+        options="$power"
     fi
 
     # Open rofi menu, read chosen option

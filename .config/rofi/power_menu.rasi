@@ -38,7 +38,7 @@ mainbox {
     border-radius: 0px;
     border-color: #00000000; /* active-background */
     background-color: rgba(0, 0, 0, 0.9);
-    children: ["inputbar", "listview", "message"];
+    children: ["inputbar","message" ,"listview"];
 }
 
 /* ---- Inputbar ---- */
@@ -72,7 +72,7 @@ listview {
     fixed-columns: true;
     spacing: 100px;
     padding: 4% 40px;
-    margin: 300px 0px 0px 330px;
+    margin: 0px 0px 0px 326px;
     background-color: transparent;
     cursor: "default";
     border: 0px;
@@ -86,13 +86,13 @@ element {
     enabled: true;
     padding: 80px 99px;
     border-radius: 10px;
-    background-color: #25243e;
+    background-color: #282b31;
     text-color: #f2cdbc; /* foreground */
     cursor: pointer;
 }
 
 element-text {
-    font: "Fira Code SemiBold 30";
+    font: "Fira Code SemiBold 45";
     background-color: transparent;
     text-color: inherit;
     cursor: inherit;
@@ -106,23 +106,24 @@ element.selected.normal {
 }
 
 element.alternate.normal {
-    background-color: #25243e; /* background-color */
+    background-color: #282b31; /* background-color */
 }
 
 /* ---- Message ---- */
 message {
+    width: 500px;
     enabled: true;
     margin: 0px;
     background-color: transparent;
     text-color: #f2cdbc; /* foreground */
     border: 0px;
 }
-
 textbox {
-    font: "Fira Code SemiBold 16";
-    background-color: #0025243e; /* background-color */
+    font: "Fira Code SemiBold 20";
+    background-color: #00000000; /* background-color */
+    border-radius: 5px;
     text-color: #f2cdbc; /* foreground */
     vertical-align: 0.5;
+    margin: 300px 0 0 0;
     horizontal-align: 0.5;
 }
-

@@ -32,7 +32,7 @@ mainbox {
 inputbar {
     children: [entry];
     background-color: @blue;
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 2px;
 }
 

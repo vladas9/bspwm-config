@@ -6,7 +6,7 @@ uptime_info=$(uptime -p | sed -e 's/up //g')
 host=$(hostnamectl hostname)
 
 # Options with Icons
-icons=( "" "󱄌" "" "󰿅" )
+icons=( "󰤆" "󰑓" "" "󰿅" )
 
 # Rofi CMD
 rofi_cmd() {
@@ -17,12 +17,6 @@ rofi_cmd() {
 
     printf "%s\n" "${options_with_icons[@]}" | \
     rofi -dmenu -i -p "" -mesg " Uptime: $uptime_info" \
-    -kb-select-1 "l" \
-    -kb-select-2 "u" \
-    -kb-select-3 "e" \
-    -kb-select-4 "r" \
-    -kb-select-5 "s" \
-    -kb-select-6 "h" \
     -theme ~/.config/rofi/power_menu.rasi
 }
 
@@ -35,10 +29,10 @@ run_cmd() {
         "󰿅")
             bspc quit
             ;;
-        "󱄌")
+        "󰑓")
             systemctl reboot
             ;;
-        "")
+        "󰤆")
             systemctl poweroff
             ;;
       
