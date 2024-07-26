@@ -50,8 +50,11 @@ super + g
 	bspc node -s biggest.window
 
 # Open APPS
-super + alt + {c,t,s,d,f,e,n,z}
-  {chromium,telegram-desktop,spotify,discord,firefox,thunar,obsidian,zathura}
+super + alt + {c,t,s,d,e,n,z}
+  {chromium,telegram-desktop,spotify,discord,thunar,obsidian,zathura}
+
+super + w
+	firefox
 
 super + space
  {rofi -show drun}

@@ -27,12 +27,15 @@ run_cmd() {
             systemctl suspend
             ;;
         "󰿅")
+            tmux kill-server
             bspc quit
             ;;
         "󰑓")
+            tmux kill-server
             systemctl reboot
             ;;
         "󰤆")
+            tmux kill-server
             systemctl poweroff
             ;;
       

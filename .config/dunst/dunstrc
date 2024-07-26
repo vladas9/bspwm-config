@@ -42,18 +42,21 @@
 [urgency_low]
   background = "#373B4E"
   frame_color = "#8ABEB7"
+  separator_color = "#8ABEB7"
   foreground = "#D9E0EE"
   timeout = 5
 
 [urgency_normal]
   background = "#373B4E"
   frame_color = "#F0C674"
+  separator_color = "#F0C674"
   foreground = "#D9E0EE"
   timeout = 5
 
 [urgency_critical]
   background = "#373B4E"
   frame_color =  "#A54242"
+  separator_color = "#A54242"
   foreground = "#D9E0EE"
   timeout = 10
 

@@ -24,7 +24,7 @@ echo "$current_state" > "$previous_state_file"
 
 # Display the icon based on the current state
 if [ "$current_state" == "Enabled" ]; then
-    echo ""
+    echo "  "
 else
     echo ""
 fi

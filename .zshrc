@@ -34,7 +34,7 @@ export EDITOR='nvim'
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
-HISTSIZE=5000
+HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 setopt appendhistory
 setopt sharehistory
