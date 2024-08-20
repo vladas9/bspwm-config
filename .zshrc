@@ -18,20 +18,6 @@ alias la='lsd -A'
 alias plr='polybar-msg cmd restart'
 alias v='nvim'
 
-# fzf
-eval "$(fzf --zsh)"
-
-source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-source "${HOME}/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
-
-export EDITOR='nvim'
-# Enable syntax highlighting
-# source ~/.zsh/plugins/zsh-syntax-highlighting.plugin.zsh
-
-
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
@@ -42,6 +28,15 @@ setopt sharehistory
 
 setopt NO_BEEP
 
+# fzf
+eval "$(fzf --zsh)"
+#zoxide
+eval "$(zoxide init zsh)"
 
+source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+source "${HOME}/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
+export EDITOR='nvim'
