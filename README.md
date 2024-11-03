@@ -1,4 +1,7 @@
-# My bspwm configs
+# Unmaintained
+moved to hyperland 
+https://github.com/vladas9/.dotfiles
+## My bspwm configs
 In this repo you can find all configs for my bspwm system with 
 - polybar
 - picom
